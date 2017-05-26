@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6AAE1EC31ED822F900F4508A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAE1EC21ED822F900F4508A /* AppDelegate.swift */; };
+		6AAE1EC51ED822F900F4508A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAE1EC41ED822F900F4508A /* ViewController.swift */; };
+		6AAE1EC81ED822F900F4508A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AAE1EC61ED822F900F4508A /* Main.storyboard */; };
+		6AAE1ECA1ED822FA00F4508A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AAE1EC91ED822FA00F4508A /* Assets.xcassets */; };
+		6AAE1ED21ED835AE00F4508A /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6AAE1ED11ED835AE00F4508A /* Settings.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6AAE1EBF1ED822F900F4508A /* PiPurr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PiPurr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AAE1EC21ED822F900F4508A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6AAE1EC41ED822F900F4508A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6AAE1EC71ED822F900F4508A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6AAE1EC91ED822FA00F4508A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6AAE1ECB1ED822FA00F4508A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AAE1ED11ED835AE00F4508A /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6AAE1EBC1ED822F900F4508A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6AAE1EB61ED822F900F4508A = {
+			isa = PBXGroup;
+			children = (
+				6AAE1EC11ED822F900F4508A /* PiPurr */,
+				6AAE1EC01ED822F900F4508A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6AAE1EC01ED822F900F4508A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AAE1EBF1ED822F900F4508A /* PiPurr.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6AAE1EC11ED822F900F4508A /* PiPurr */ = {
+			isa = PBXGroup;
+			children = (
+				6AAE1EC21ED822F900F4508A /* AppDelegate.swift */,
+				6AAE1EC41ED822F900F4508A /* ViewController.swift */,
+				6AAE1EC61ED822F900F4508A /* Main.storyboard */,
+				6AAE1EC91ED822FA00F4508A /* Assets.xcassets */,
+				6AAE1ECB1ED822FA00F4508A /* Info.plist */,
+				6AAE1ED11ED835AE00F4508A /* Settings.bundle */,
+			);
+			path = PiPurr;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6AAE1EBE1ED822F900F4508A /* PiPurr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AAE1ECE1ED822FA00F4508A /* Build configuration list for PBXNativeTarget "PiPurr" */;
+			buildPhases = (
+				6AAE1EBB1ED822F900F4508A /* Sources */,
+				6AAE1EBC1ED822F900F4508A /* Frameworks */,
+				6AAE1EBD1ED822F900F4508A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PiPurr;
+			productName = PiPurr;
+			productReference = 6AAE1EBF1ED822F900F4508A /* PiPurr.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6AAE1EB71ED822F900F4508A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Tris Linnell";
+				TargetAttributes = {
+					6AAE1EBE1ED822F900F4508A = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = TMJL67SRLF;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6AAE1EBA1ED822F900F4508A /* Build configuration list for PBXProject "PiPurr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6AAE1EB61ED822F900F4508A;
+			productRefGroup = 6AAE1EC01ED822F900F4508A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6AAE1EBE1ED822F900F4508A /* PiPurr */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6AAE1EBD1ED822F900F4508A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AAE1ECA1ED822FA00F4508A /* Assets.xcassets in Resources */,
+				6AAE1ED21ED835AE00F4508A /* Settings.bundle in Resources */,
+				6AAE1EC81ED822F900F4508A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6AAE1EBB1ED822F900F4508A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AAE1EC51ED822F900F4508A /* ViewController.swift in Sources */,
+				6AAE1EC31ED822F900F4508A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6AAE1EC61ED822F900F4508A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AAE1EC71ED822F900F4508A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6AAE1ECC1ED822FA00F4508A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		6AAE1ECD1ED822FA00F4508A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6AAE1ECF1ED822FA00F4508A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = TMJL67SRLF;
+				INFOPLIST_FILE = PiPurr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.canthack.pipurr.tvos.PiPurr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6AAE1ED01ED822FA00F4508A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = TMJL67SRLF;
+				INFOPLIST_FILE = PiPurr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.canthack.pipurr.tvos.PiPurr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6AAE1EBA1ED822F900F4508A /* Build configuration list for PBXProject "PiPurr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AAE1ECC1ED822FA00F4508A /* Debug */,
+				6AAE1ECD1ED822FA00F4508A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AAE1ECE1ED822FA00F4508A /* Build configuration list for PBXNativeTarget "PiPurr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AAE1ECF1ED822FA00F4508A /* Debug */,
+				6AAE1ED01ED822FA00F4508A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6AAE1EB71ED822F900F4508A /* Project object */;
+}
